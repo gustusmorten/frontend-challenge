@@ -2,7 +2,7 @@
   "name": "flink-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://flink.camachojoseluis.com/",
+  "homepage": "https://gustusmorten.github.io/frontend-challenge/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
@@ -32,6 +32,7 @@
     "css-build": "node-sass --omit-source-map-url src/index.scss src/index.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "react-scripts start ",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
