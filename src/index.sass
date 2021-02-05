@@ -1,0 +1,124 @@
+@charset "utf-8"
+@import './_variables'
+
+@import '../node_modules/bulma/bulma.sass'
+.cromo-container
+    margin: 0 auto
+.cromo-image 
+    object-fit: cover
+    opacity: 0.7
+    border-radius: 10px
+    width: 230px
+    height: 100%;
+
+.cromo-image-overlay
+    text-align: center
+    position: absolute
+    width: 100%
+    z-index: 2
+    bottom: 30px
+    color: #fff
+    font-size: 25px
+
+.cromo-front
+    z-index: 2
+    transform: rotateY(0deg)
+    background: $others
+    border: 10px solid #3a3995 
+    border-radius: 20px
+    box-shadow: -5px 5px 5px #aaa
+
+.cromo-container, .cromo-front,
+	width: 230px
+	height: 347px
+
+.cromo-front.is-gryffindor, 
+    border: 10px solid $gryffindor
+
+.cromo-front.is-slytherin 
+    border: 10px solid $slytherin
+.cromo-front.is-ravenclaw 
+    border: 10px solid $ravenclaw
+.cromo-front.is-hufflepuff 
+    border: 10px solid $hufflepuff
+
+.modal-card-head.is-gryffindor
+    background-color: $gryffindor-dark 
+.modal-card-head.is-slytherin 
+    background-color: $slytherin-dark
+.modal-card-head.is-ravenclaw 
+    background-color: $ravenclaw-dark
+.modal-card-head.is-hufflepuff 
+    background-color: $hufflepuff-dark
+.modal-card-head
+    background-color: $others-dark
+.modal-image
+    height: 367px
+    width: 255px
+    margin: 0 auto
+    border-radius: 15px
+
+.is-slytherin 
+    
+    .navbar 
+        background-color: $slytherin-dark;
+    .container.is-fluid
+        background-color: $slytherin-dark;
+    .panel-heading
+        background-color: $slytherin;
+    .navbar-item:hover
+        background-color: $slytherin;
+
+
+.is-gryffindor 
+    .navbar 
+        background-color: $gryffindor-dark;
+    .container.is-fluid
+        background-color: $gryffindor-dark;
+    .panel-heading
+        background-color: $gryffindor;
+    .navbar-item:hover
+        background-color: $gryffindor;
+
+.is-ravenclaw 
+    .navbar
+        background-color: $ravenclaw-dark;
+    .container.is-fluid
+        background-color: $ravenclaw-dark;
+    .panel-heading
+        background-color: $ravenclaw;
+    .navbar-item:hover
+        background-color: $ravenclaw;
+
+.is-hufflepuff 
+    .navbar
+        background-color: $hufflepuff-dark;
+    .container.is-fluid
+        background-color: $hufflepuff-dark;
+    .panel-heading
+        background-color: $hufflepuff;
+    .navbar-item:hover
+        background-color: $hufflepuff;
+        
+.is-others 
+    .navbar 
+        background-color: $others-dark;
+    .container.is-fluid
+        background-color: $others-dark;
+    .panel-heading
+        background-color: $others;
+    .navbar-item:hover
+        background-color: $others;
+
+.bg-img  
+    background-position: center center
+    background-repeat:  no-repeat
+    background-attachment: fixed
+    background-size:  cover
+    background-color: #999
+
+.id-divider
+    border-top: 3px solid #bbb
+
+ 
+
